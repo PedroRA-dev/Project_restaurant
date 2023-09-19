@@ -1,3 +1,4 @@
+// TODO: You can empty this file since we will start doing everything in HTML
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
