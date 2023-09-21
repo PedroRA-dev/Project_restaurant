@@ -1,0 +1,95 @@
+/* estilo del header */
+header {
+    background-color: #242424;
+    color: #ccc;
+    text-align: left;
+    padding: 20px 20px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* estilo de la foto */
+.logo img {
+    height: 90px;;
+    vertical-align: middle;
+    margin-top: -17px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+}
+/* estilo del nombre */
+.title h1 {
+    font-size: 65px;
+    margin: 0;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    color: #ccc;
+    font-family: "nueva fuente", sans-serif;
+}
+
+/* estilo del navbar */
+nav {
+    background-color: #222;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horizontal-list li {
+    margin-right: 15px;
+}
+
+.horizontal-list a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: left;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ccc;
+    padding-right: 40px;
+}
+
+.social-links img {
+    height: 25px;
+}
+
+
+
+
+
