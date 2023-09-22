@@ -1,5 +1,5 @@
 # Restaurant
-This is a test project to learn web designing.
+This is a test project to learn web designing. It will evolve over the time.
 ## Starting the project
 ### Install dependencies
 `npm install`
