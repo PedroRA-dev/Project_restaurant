@@ -1,4 +1,5 @@
 # Restaurant
+This is a test project to learn web designing.
 ## Starting the project
 ### Install dependencies
 `npm install`
