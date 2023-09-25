@@ -1,9 +1,7 @@
 # Restaurant
 ## Starting the project
-### Install dependencies
-`npm install`
 ### Deploy the project
-`npm run dev`
+`docker compose up`
 ### Access to the web
 > http://localhost:5173/
 
@@ -15,4 +13,5 @@
 - [X] Create a logo for the page and insert it in the navbar.
 - [X] Create the main style of the page designing and documenting the choosen style.
 - [ ] Arrange the main nav menu and footer shared in all the pages of the website considering the style.
-- [ ] Implement docker-compose.yaml and Dockerfile for the deploying of the app
+- [X] Implement docker-compose.yaml and Dockerfile for the deploying of the app
+- [ ] Fix docker compose vite hot reload
