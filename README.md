@@ -1,4 +1,5 @@
 # Restaurant
+This is a test project to learn web designing. It will evolve over the time.
 ## Starting the project
 ### Deploy the project
 `docker compose up`
