@@ -20,6 +20,7 @@ header {
     margin-top: -17px;
     padding-bottom: 50px;
     border-radius: 10%;
+    margin-left: 90px;
 }
 /* estilo del nombre */
 .title h1 {
@@ -33,7 +34,7 @@ header {
 
 /* estilo del navbar */
 nav {
-    background-color: #222;
+    background-color: #242424;
 }
 
 .horizontal-list {
@@ -89,7 +90,68 @@ footer {
     height: 25px;
 }
 
+/* Estilos para el centro de la página */
+.center-content {
+    background-color: #050505; 
+    color: #ccc;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; /* Altura de la ventana del navegador */
+    padding: 20px; 
+}
+/* ajustar las columnas */
+.center-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    align-items: center;
+    text-align: center;
+    width:1200%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
 
+/* editar la imagen */
+.center-section img {
+    max-width: 250%; 
+    height: auto;
+    grid-column: 2 / 3; 
+    margin-bottom: 100px;
+    margin-left: -300px;
+}
+
+
+.text-left {
+    grid-column: 1 / 2; /* primera columna*/
+    text-align: left;
+}
+
+.text-right {
+    grid-column: 3 / 4; /* tercera columna*/
+}
+
+/* Estilos para el texto de descripción */
+section p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para alinear el texto a la izquierda o derecha */
+.text-left p {
+    grid-column: 1/2;
+    text-align: left;
+    margin-top: -500px;
+    margin-left: -150px;
+    padding-right: 270px
+}
+
+.text-right p {
+    text-align: right;
+    margin-top: -500px;;
+    margin-right: -150px;
+    padding-left: 270px;
+}
 
 
 
